@@ -6,7 +6,6 @@ int main()
 	LED_INIT();
 	while(1)
 	{
-		hello;
 		GPIOC->ODR^=1<<10;
 		HAL_Delay(2000);
 		GPIOC->ODR^=1<<10;
